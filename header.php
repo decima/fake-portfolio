@@ -1,3 +1,7 @@
+<?php
+$random = rand(1,2)
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,7 +9,7 @@
     <title>Marie-Louise Bourreau - Portfolio</title>
     <style>
         body {
-            background-image: url("images/background2.jpg");
+            background-image: url(<?php echo "images/background$random.jpg" ?>);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
