@@ -1,19 +1,3 @@
-
-<html>
-<head>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Marie-Louise Bourreau - Portfolio</title>
-    <style>
-        body {
-            background-image: url("images/background1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-    </style>
-</head>
-<body>
-
 <?php
 require_once('header.php');
 ?>
