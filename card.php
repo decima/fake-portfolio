@@ -1,5 +1,4 @@
 
-
     <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
         <a href="<?php echo $card["link"]?>" class="w-full block h-full">
             <img alt="blog photo" src="<?php echo $card["image"]?>" class="max-h-40 w-full object-cover"/>
