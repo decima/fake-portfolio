@@ -1,5 +1,7 @@
 <?php
-$random = rand(1,2)
+$random = rand(1,2);
+require('data.php');
+
 ?>
 
 <html lang="en">
