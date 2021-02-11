@@ -1,59 +1,65 @@
 <?php
 $realisations = [
     [
-        "title" => "Linux",
-        "description" => "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991. Linux is typically packaged in a Linux distribution.",
+        "title" => "Maya",
+        "description" => "Dans le cadre du cours HTML/CSS, nous avons dû réaliser un site dans le thème marchand. Nous avions une semaine et le droit de n’utiliser uniquement les langages HTML et CSS. Le site devait être composé d’au minimum 3 pages et contenir des animations ainsi que des transitions, un formulaire et si possible le rendre responsive.",
         "image" => "https://p4.wallpaperbetter.com/wallpaper/980/964/908/linux-minimalism-foxyriot-tux-wallpaper-preview.jpg",
-        "link" => "https://github.com/torvalds/linux"
+        "link" => "https://coyls.github.io/maya/"
     ],
     [
-        "title" => "PHP",
-        "description" => "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+        "title" => "Workshop",
+        "description" => "Dans le cadre du premier workshop HTML/CSS,nous avions une semaine en autonomie pour copier et ajouter des éléments à un site réalisé en one-page, et adapter le site pour téléphone. Nous avions pour seul modèle une vidéo. Les images étaient fournies. Les contraintes étaient que nous avions le droit d’utiliser uniquement les langages HTML/CSS.",
         "image" => "https://www.live-rates.com/system/blogs/attachments/000/000/026/original/php1.jpg?1547433041",
-        "link" => "https://www.php.net/"
+        "link" => "https://coyls.github.io/workshop/"
     ],
     [
-        "title" => "Laravel",
-        "description" => "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. ",
+        "title" => "Kikk Festival",
+        "description" => "Lors de leur workshop, les designers de notre promotion ont dû réaliser la maquette d’un site pour qu’il soit exploitable par un développeur. Dans l’objectif de travailler mes compétences en HTML/CSS/JS et de pouvoir tester de nouvelles choses. J’ai récupéré une maquette et l’ai intégrée.",
         "image" => "https://i.pinimg.com/originals/0b/07/e6/0b07e6c038ceecfb02d3b96bda9c8738.png",
-        "link" => "https://github.com/laravel/laravel"
-    ],
-    [
-        "title" => "Git",
-        "description" => "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development.[8] Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).",
-        "image" => "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-        "link" => "https://git-scm.com/"
+        "link" => "https://coyls.github.io/kikk-festival/"
     ],
 ];
 // -----------------------------------------------------------------------
 
 $user = [
-    "name" => "Marie-Louise Bourreau",
-    "job" => "Développeuse / Photographe",
-    "url" => "https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+    "name" => "Loïc Gréco",
+    "job" => "Etudiant en Développement web et mobile",
+    "url" => "./images/profile_picture.jpg"
 ];
 // -----------------------------------------------------------------------
 $formation = [
     [
-        "date" => "2017/2019",
-        "formation" => "BDDI1",
-        "place" => "École des gobelins",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date" => "2020/2021",
+        "formation" => "Bachelor Developpeur Web et Mobile 1ere année",
+        "place" => "École Les Gobelins campus Annecy",
+        "description" => "",
+    ],
+    [
+        "date" => "2019/2020",
+        "formation" => "Sciences et Génie des Matériaux",
+        "place" => "IUT Chambéry, Université Savoie Mont Blanc",
+        "description" => "",
+    ],
+    [
+        "date" => "2016/2019",
+        "formation" => "Bac STI2D option ITEC",
+        "place" => "Lycée Edouard Branly – Lyon 5e",
+        "description" => "Mention Bien",
     ],
 ];
 // -----------------------------------------------------------------------
 $passion = [
     [
-        "passion" => "Photographie",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "passion" => "Cardistry",
+        "description" => "Description de la cardistry",
     ],
     [
-        "passion" => "Sports extrêmes",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "passion" => "Voyage",
+        "description" => "Explication de l'imortance des voyage dans ma vie et ce qu'il mon apporter",
     ],
     [
-        "passion" => "Théâtre",
-        "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "passion" => "Musique",
+        "description" => "Explication de l'importance de la musique dans ma vie",
     ],
 
 ];
