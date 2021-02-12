@@ -1,5 +1,5 @@
 <?php
-require_once('header.php');
+include $_SERVER['DOCUMENT_ROOT']."./fake-portfolio/components/header.php";
 ?>
 
 
@@ -7,11 +7,11 @@ require_once('header.php');
 
 <div class="sm:flex flex-wrap justify-center items-center text-center gap-8 mt-40">
     <?php foreach ($realisations as $card) {
-        include "card.php";
+        include "../components/card.php";
     } ?>
 </div>
 
 <?php
-require_once('footer.php');
+require_once('../components/footer.php');
 ?>
 

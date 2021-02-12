@@ -1,5 +1,5 @@
 <?php
-require_once('header.php');
+include $_SERVER['DOCUMENT_ROOT']."./fake-portfolio/components/header.php";
 ?>
 
 <form class="flex w-full max-w-sm space-x-3 m-auto">
@@ -41,6 +41,6 @@ require_once('header.php');
 </form>
 
 <?php
-require_once('footer.php');
+require_once('../components/footer.php');
 ?>
 

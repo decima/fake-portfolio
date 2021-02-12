@@ -8,7 +8,7 @@ $realisations = [
     ],
     [
         "title" => "Workshop",
-        "description" => "Dans le cadre du premier workshop HTML/CSS,nous avions une semaine en autonomie pour copier et ajouter des éléments à un site réalisé en one-page, et adapter le site pour téléphone. Nous avions pour seul modèle une vidéo. Les images étaient fournies. Les contraintes étaient que nous avions le droit d’utiliser uniquement les langages HTML/CSS.",
+        "description" => "Dans le cadre du premier workshop HTML/CSS,nous avions une semaine en autonomie pour copier et ajouter des éléments à un site réalisé en one-page, et adapter le site pour téléphone. Nous avions pour seul modèle une vidéo. Les src étaient fournies. Les contraintes étaient que nous avions le droit d’utiliser uniquement les langages HTML/CSS.",
         "image" => "https://www.live-rates.com/system/blogs/attachments/000/000/026/original/php1.jpg?1547433041",
         "link" => "https://coyls.github.io/workshop/"
     ],
@@ -24,7 +24,7 @@ $realisations = [
 $user = [
     "name" => "Loïc Gréco",
     "job" => "Etudiant en Développement web et mobile",
-    "url" => "./images/profile_picture.jpg"
+    "url" => "./src/images/profile_picture.jpg"
 ];
 // -----------------------------------------------------------------------
 $formation = [

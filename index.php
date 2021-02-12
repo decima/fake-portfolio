@@ -1,5 +1,5 @@
 <?php
-require_once('header.php');
+require_once('./components/header.php');
 ?>
 
 <img alt="profil" src="<?php echo $user["url"] ?>" class="mx-auto object-cover rounded-full h-96 w-96 "/>
@@ -10,7 +10,7 @@ require_once('header.php');
 <h1 class="font-sans text-left mt-60 ml-6 mb-5 text-4xl text-center">Formations</h1>
 <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
     <?php foreach ($formation as $card) {
-        include "formation.php";
+        include "./components/formation.php";
     } ?>
 
 </div>
@@ -18,11 +18,11 @@ require_once('header.php');
 <h1 class="font-sans text-left mt-60 mb-5 ml-6 text-4xl text-center">Passions</h1>
 <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
     <?php foreach ($passion as $card) {
-        include "passion.php";
+        include "./components/passion.php";
     } ?>
 </div>
 
 <?php
-require_once('footer.php');
+require_once('./components/footer.php');
 ?>
 
