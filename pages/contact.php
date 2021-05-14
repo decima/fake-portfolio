@@ -1,5 +1,10 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT']."./fake-portfolio/components/header.php";
+// Cette syntaxe ne fonctionne pas et dépend de l'archi du serveur.
+// include $_SERVER['DOCUMENT_ROOT']."./fake-portfolio/components/header.php";
+
+// privilégie plutôt
+include __DIR__."/../components/header.php";
+
 ?>
 
 <form class="flex w-full max-w-sm space-x-3 m-auto">
